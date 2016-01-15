@@ -3,9 +3,6 @@ package fr.afcepf.al26.banquespring.entity;
 import javax.persistence.*;
 import java.util.Date;
 
-/**
- * Created by Stagiaire on 15/01/2016.
- */
 @Entity
 @Table(name = "operation")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
